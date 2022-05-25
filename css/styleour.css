@@ -52,7 +52,7 @@ body{
 }
 
 .nav__yepes{
-    height: 80px;
+    height: 40px;
     
 }
 
@@ -63,6 +63,7 @@ body{
 
 .nav__items{
     list-style: none;
+    
 }
 
 .nav__link{
@@ -72,6 +73,7 @@ body{
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    
 }
 
 .nav__links{
@@ -164,6 +166,7 @@ body{
     -o-border-radius: 50%;
     object-fit: cover;
     object-position: 50% 30%;
+    flex-wrap: wrap;
 }
 
 .testimony__text{
@@ -202,6 +205,7 @@ body{
 }
 
 .questions .subtitle{
+    padding-top: 20px;
     padding: 20px;
     
 }
@@ -214,7 +218,7 @@ body{
 }
 
 .questions__paragraph{
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .questions__padding{
@@ -292,8 +296,22 @@ body{
     display: block;
 }
 
+.questions__offer{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 92px;
+}
+
+.questions__offer p {
+    padding-top: 20px;
+    margin-top: 20px;
+}
 
 
+/* 
 @media (min-widht: 620px) {
     .testimony{
         width: 100%;
@@ -311,4 +329,80 @@ body{
     .testimony__img {
         width: 50%;
     }
+} */
+
+/* footer */
+
+.footer{
+    background-color: #9099aa;
+}
+
+.footer__title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.footer__newletter{
+    padding-bottom: 20px;
+}
+
+.footer__title, .footer__newletter{
+    color: #fff;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+}
+
+.nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+
+}
+
+.nav__link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.footer__inputs{
+    color: #fff;
+    height: 50px;
+    padding-left: 12px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 1rem;
+
+}
+
+.footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__copyright{
+    font-weight: 300;
+}
+
+.footer__icons{
+    /* display: inline-flex; */
+    margin-bottom: 12px;
+}
+
+.footer__img{
+    width: 36px;
 }

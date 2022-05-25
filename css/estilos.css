@@ -48,15 +48,17 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
+    /* padding-bottom: 50px; */
 }
 
 .nav__yepes{
-    height: 80px;
+    height: 40px;
     
 }
 
 .nav__title{
     font-weight: 300;
+    padding-bottom: 20px;
     
 }
 
@@ -102,10 +104,12 @@ body{
     gap: 1em;
     padding-bottom: 100px;
     text-align: center;
+    padding-top: 150px;
 }
 
 .hero__title{
-    font-size: 3rem;
+    padding-top: 50px;
+    font-size: 2rem;
 }
 
 .hero__paragraph{
@@ -164,6 +168,14 @@ body{
     width: 40px;
 }
 
+@media (min-widht: 500px) {
+    .hero__title h1{
+        font-size: 1rem;
+        
+    }
+    
+} 
+
 /* knowledge */
 
 .knowledge{
@@ -178,6 +190,11 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 2em;
     align-items: center;
+}
+
+.knowledge__text{
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .knowledge__picture{
@@ -262,5 +279,81 @@ body{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+/* footer */
+
+.footer{
+    background-color: #9099aa;
+}
+
+.footer__title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.footer__newletter{
+    padding-bottom: 20px;
+}
+
+.footer__title, .footer__newletter{
+    color: #fff;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+}
+
+.nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+
+}
+
+.nav__link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.footer__inputs{
+    color: #fff;
+    height: 50px;
+    padding-left: 12px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 1rem;
+
+}
+
+.footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__copyright{
+    font-weight: 300;
+}
+
+.footer__icons{
+    /* display: inline-flex; */
+    margin-bottom: 12px;
+}
+
+.footer__img{
+    width: 36px;
 }
 
