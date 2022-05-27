@@ -448,7 +448,7 @@ body{
 
 /* @media queries */
 
-@media (max-width:2960px){
+@media (max-width:800px){
     .nav__menu{
         display: block;
     }
