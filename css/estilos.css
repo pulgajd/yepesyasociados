@@ -12,7 +12,7 @@ body{
 .header{
     background-image: url(../images/colombia.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     z-index: -1;
 }
 
@@ -161,7 +161,7 @@ body{
 }
 
 .subtitle{
-    color: #1e1e1e;
+    color: #fff75d;
     font-size: 2rem;
     margin-bottom: 24px;
 }
@@ -409,7 +409,15 @@ body{
 
 /* media queries */
 
-@media (max-width:800px){
+@media (max-width:900px){
+    /* .header{
+        background-image: url(../images/colombia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        background-position: -80% 0%;
+    } */
+
     .nav__menu{
         display: block;
     }
@@ -419,6 +427,7 @@ body{
         background-image: url(../images/menu65451_3918535796622206263_n.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         top: 0;
         left: 0;
         height: 100%;
@@ -452,7 +461,13 @@ body{
         cursor: pointer;
     }
 
-    @media (max-width:800px){
+    .nav__yepes{
+        padding-top: 60px;
+        height: 180px;
+        
+    }
+
+    @media (max-width:900px){
     .hero__title{
         font-size: 1.5rem;
     }
@@ -476,4 +491,21 @@ body{
         grid-row: 1/2;
         justify-self: center;
     }
+
+    .subtitle{
+        color: #fff75d;
+        font-size: 1.8rem;
+        margin-bottom: 24px;
+        padding-top: 100px;
+    }
+
+    /* .testimony__container{
+        grid-template-columns: 30px 1fr 30px;
+    }
+
+    .testimony__body{
+
+    } */
+
+    
 }
