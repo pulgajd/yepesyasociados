@@ -50,8 +50,10 @@ body{
 }
 
 .nav{
+    padding-left: 30px;
+    padding-right: 30px;
     /* padding: 0; */
-    --padding-container:0;
+    /* --padding-container:0; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -114,6 +116,7 @@ body{
 .main3{
     background-image: url(../images/header02.jpg);
     background-size: cover;
+    padding: var(--padding-container);
 }
 
 .hero__container{
@@ -130,10 +133,12 @@ body{
 
 .hero__title{
     font-size: 3rem;
+    padding: 30px;
 }
 
 .hero__paragraph{
     margin-bottom: 20px;
+    padding: 30px;
 }
 
 .cta{
@@ -148,6 +153,7 @@ body{
     -moz-border-radius: 32px;
     -ms-border-radius: 32px;
     -o-border-radius: 32px;
+    padding: 30px;
 }
 
 /* footer */
@@ -157,6 +163,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 100%;
+    padding: var(--padding-container);
 }
 
 .footer__title{
