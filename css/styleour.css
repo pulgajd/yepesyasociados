@@ -35,7 +35,7 @@ body{
     /* height: 100vh; */
     /* min-height: 600px;
     max-height: 800px; */
-    position: relative;
+    position: fixed;
     /* display: grid; */
     grid-template-rows: 200px 1fr;
     color: white;
@@ -60,6 +60,7 @@ body{
 }
 
 .nav{
+    right: 0;
     padding-left: 30px;
     padding-right: 30px;
     /* --padding-container: 0; */
@@ -102,7 +103,7 @@ body{
 
 }
 
-.hero ul li  a:hover{ background: #fff75d; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
+.hero ul li  a:hover{ background: #6A4E0B; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
 }
 
 .nav__links1{
@@ -236,8 +237,8 @@ body{
 .testimony__course{
     border-radius: 6%;
     padding: 5px;
-    background-color: rgb(255, 253, 108);
-    color: #fff;
+    /* background-color: #6A4E0B; */
+    color: #6A4E0B;
     display: inline-block;
     -webkit-border-radius: 6%;
     -moz-border-radius: 6%;
@@ -246,7 +247,7 @@ body{
 }
 
 .subtitle{
-    color: #fff75d;
+    color: #6A4E0B;
     font-size: 2rem;
     margin-bottom: 24px;
 }
@@ -430,7 +431,7 @@ body{
     background-position:  bottom ;
 }
 
-.footer ul li  a:hover{ background: #fff75d; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
+.footer ul li  a:hover{ background: #6A4E0B; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
 }
 
 .footer__title{

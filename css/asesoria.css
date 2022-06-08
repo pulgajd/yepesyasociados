@@ -27,7 +27,7 @@ body{
     /* height: 100vh;
     min-height: 600px;
     max-height: 800px; */
-    position: relative;
+    position: fixed;
     /* display: grid; */
     grid-template-rows: 200px 1fr;
     color: white;
@@ -50,6 +50,7 @@ body{
 }
 
 .nav{
+    right: 0;
     padding-left: 30px;
     padding-right: 30px;
     /* padding: 0; */
@@ -89,11 +90,11 @@ body{
 
 .nav__links{
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.hero ul li  a:hover{ background: #fff75d; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
+.hero ul li  a:hover{ background: #6A4E0B; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
 }
 
 .nav__menu{
@@ -143,16 +144,16 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: rgb(255, 253, 108);
+    background-color: #6A4E0B;
     justify-self: center;
-    color: white;
+    color: rgb(8, 8, 8);
     text-decoration: none;
     padding: 13px 32px;
-    border-radius: 32px;
-    -webkit-border-radius: 32px;
-    -moz-border-radius: 32px;
-    -ms-border-radius: 32px;
-    -o-border-radius: 32px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
     padding: 30px;
 }
 
