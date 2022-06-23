@@ -87,6 +87,7 @@ body{
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    color: #fff;
     
 }
 
@@ -108,7 +109,7 @@ body{
 
 .nav__links1{
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -425,13 +426,17 @@ body{
 /* footer */
 
 .footer{
-    background-image: url(../images/footersmall112672988946010_5039593190770803832_n.jpg) ;
+    background-image: url(../images/small415_2861466830177938427_n.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  bottom ;
 }
 
 .footer ul li  a:hover{ background: #6A4E0B; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
+}
+
+.footer__form{
+    padding-left: 30px;
 }
 
 .footer__title{
@@ -445,14 +450,14 @@ body{
 }
 
 .footer__title, .footer__newletter{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .footer__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
     padding-bottom: 60px;
 }
 
@@ -472,10 +477,14 @@ body{
     flex-wrap: wrap;
 }
 
+.email{
+    padding: 15px 0;
+}
+
 .footer__inputs{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     height: 50px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -488,7 +497,7 @@ body{
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .footer__copyright{
@@ -600,6 +609,10 @@ body{
     .footer__form{
         width: 100%;
         justify-content: space-evenly;
+    }
+
+     p {
+        padding: 15px 0;
     }
 }
 
