@@ -325,11 +325,11 @@ padding: var(--padding-container);
     -o-border-radius: 10px;
     width: 330px;
     padding: 40px;
-    --color-plan: #040404;
-    --color-price: #0e0e0e;
-    --bg-cta: rgb(0, 0, 0);
-    --color-cta: #000000;
-    --color-items: #171717;
+    --color-plan: #ffffff;
+    --color-price: #ffffff;
+    --bg-cta: #6A4E0B;
+    --color-cta: #ffffff;
+    --color-items: #ffffff;
 
 }
 
@@ -359,7 +359,7 @@ padding: var(--padding-container);
     padding: 20px 0;
     border-radius: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #6A4E0B;
     background-color: #ffffff;
     font-weight: 600;
     -webkit-border-radius: 10px;
@@ -454,6 +454,8 @@ padding: var(--padding-container);
 .footer__img{
     width: 36px;
 }
+
+
 
 /* media queries */
 
