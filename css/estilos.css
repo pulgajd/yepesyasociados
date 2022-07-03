@@ -171,7 +171,7 @@ right: 0;
     display: inline-block;
     background-color: #6A4E0B;
     justify-self: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 13px 32px;
     border-radius: 32px;
@@ -184,7 +184,7 @@ right: 0;
 /* About */
 
 .about{
-    background-image: url(../images/yellowwhite6473999133527725607_n.png);
+    background-image: url(../images/header02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -207,6 +207,7 @@ right: 0;
 }
 
 .about__main{
+    padding-bottom: 80px;
     padding-top: 80px;
     display: grid;
     width: 90%;
@@ -335,8 +336,9 @@ padding: var(--padding-container);
 
 .price__name{
     color: var(--color-plan);
-    margin-bottom: 15px;
+    margin-bottom: 55px;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .price__price{
@@ -349,7 +351,7 @@ padding: var(--padding-container);
     display: grid;
     gap: 1em;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 16px;
     margin-bottom: 50px;
     color: var(--color-items);
 }
@@ -372,9 +374,10 @@ padding: var(--padding-container);
 /* footer */
 
 .footer{
-    background-image: url(../images/footerblack21296_n.jpg);
+    background-image: url(../images/black7937621768649_n.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
     padding: var(--padding-container);
 }
 
@@ -422,6 +425,10 @@ padding: var(--padding-container);
     margin-right: 20px;
     flex-wrap: wrap;
 }
+
+.email {
+    padding: 5px 0;
+  }
 
 .footer__inputs{
     color: rgb(255, 255, 255);
@@ -482,7 +489,7 @@ padding: var(--padding-container);
         background-image: url(../images/menu65451_3918535796622206263_n.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: 35% 0%;
         top: 0;
         left: 0;
         height: 100%;
@@ -502,7 +509,7 @@ padding: var(--padding-container);
         
         /* padding: 20px ; */
 }
-}
+
 
     .nav__link--show{
         --show: block;
@@ -520,11 +527,11 @@ padding: var(--padding-container);
 
     .nav__yepes{
         /* padding-top: 60px; */
-        height: 70px;
+        height: 50px;
         
     }
 
-    @media (max-width:900px){
+    
     .hero__title{
         font-size: 1.5rem;
     }
